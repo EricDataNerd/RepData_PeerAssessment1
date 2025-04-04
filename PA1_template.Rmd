@@ -77,7 +77,7 @@ mean_available_steps <- mean(total_steps_per_day_with_available_data$steps)
 median_available_steps <- median(total_steps_per_day_with_available_data$steps)
 ```
 
-The mean and median of the total steps taken per day are **`r formatC(mean_avaialble_steps, format="d", big.mark=",")`** and **`r formatC(median_available_steps, format="d", big.mark=",")`**, respectively.
+The mean and median of the total steps taken per day are **`r formatC(mean_available_steps, format="d", big.mark=",")`** and **`r formatC(median_available_steps, format="d", big.mark=",")`**, respectively.
 
 ## What is the average daily activity pattern?
 Calculate the average steps taken per interval:
@@ -138,7 +138,7 @@ mean_filled_steps <- mean(total_steps_per_day_with_filled_data$steps)
 median_filled_steps <- median(total_steps_per_day_with_filled_data$steps)
 ```
 
-The mean and remdian of the total steps taken per day with filled in data are **`r formatC(mean_filled_steps, format="d", big.mark=",")`** and **`r formatC(median_filled_steps, format="d", big.mark=",")`**, respectively. This compares to **`r formatC(mean_avaialble_steps, format="d", big.mark=",")`** and **`r formatC(median_available_steps, format="d", big.mark=",")`** for data without missing values, which are very close. So we conclude that filling in missing values have no meaningful impact to the calculations
+The mean and remdian of the total steps taken per day with filled in data are **`r formatC(mean_filled_steps, format="d", big.mark=",")`** and **`r formatC(median_filled_steps, format="d", big.mark=",")`**, respectively. This compares to **`r formatC(mean_available_steps, format="d", big.mark=",")`** and **`r formatC(median_available_steps, format="d", big.mark=",")`** for data without missing values, which are very close. So we conclude that filling in missing values have no meaningful impact to the calculations
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
