@@ -73,7 +73,7 @@ ggplot(total_steps_per_day_with_available_data, aes(x = day, y = steps)) + geom_
 
 Calculate the mean and median of the total steps taken per day:
 ```{r}
-mean_avaialble_steps <- mean(total_steps_per_day_with_available_data$steps)
+mean_available_steps <- mean(total_steps_per_day_with_available_data$steps)
 median_available_steps <- median(total_steps_per_day_with_available_data$steps)
 ```
 
