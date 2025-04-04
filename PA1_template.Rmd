@@ -16,6 +16,8 @@ library(lattice)
 setwd("C:/Users/sue6/OneDrive - Queensland University of Technology/Documents/R course related docs/repdata_data_activity")
 install.packages("ggplot2")
 library(ggplot2)
+install.packages("knitr")
+library(knitr)
 data <- read.csv("activity.csv")
 data <- transform(data, date = as.Date(date))
 ```
